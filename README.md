@@ -20,3 +20,16 @@ int main() {
     return 0;
 }
 
+
+**write a c program to read character and display its ASCII value**
+#include <stdio.h>
+
+int main() {
+    //write a c program to read character and display its ascii value
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+    printf("The ASCII value of '%c' is: %d\n", ch, ch);
+
+    return 0;
+}
